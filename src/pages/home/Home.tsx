@@ -34,7 +34,7 @@ function Home () {
               fontWeight: "bold",
             }}
           >
-            Seja Bem vindo!
+            Tu de novo?😒
           </h2>
 
           <p
@@ -42,7 +42,7 @@ function Home () {
               fontSize: "1.25rem",
             }}
           >
-            Expresse aqui seus pensamentos e opiniões
+            Manda a boa
           </p>
 
           <div
@@ -71,10 +71,10 @@ function Home () {
           }}
         >
           <img
-            src="https://i.imgur.com/fyFPi2V.png"
+            src="https://i.imgur.com/fyfri1v.png"
             alt="Imagem Página Home"
             style={{
-              width: "66%",
+              width: "90%",
             }}
           />
         </div>
