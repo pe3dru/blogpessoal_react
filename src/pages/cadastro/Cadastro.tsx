@@ -47,13 +47,12 @@ function Cadastro() {
       setIsLoading(true);
 
       try {
-        await cadastrarUsuario("/usuarios/cadastrar", usuario, setUsuario);
+        await cadastrarUsuario("/usuarios/cadastrar", usuario, setUsuario);      
         alert("Usuário cadastrado com sucesso!");
       } catch (error) {
         console.error("Erro ao cadastrar usuário:", error);
         alert("Erro ao cadastrar o usuário!");
       }
-      // O 'else' que estava aqui foi REMOVIDO
 
       setIsLoading(false);
     } else {
