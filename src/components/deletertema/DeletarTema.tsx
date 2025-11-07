@@ -85,8 +85,7 @@ function retornar() {
           <p className='p-8 text-3xl bg-slate-200 h-full'>{tema.descricao}</p>
           <div className="flex">
           <button
-            className='text-slate-100 bg-red-400 hover:bg-red-600 w-full py-2'
-            onClick={deletar}>
+            className='text-slate-100 bg-red-400 hover:bg-red-600 w-full py-2'>
             Não
           </button>
           <button
